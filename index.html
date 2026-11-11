@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>つむぎ農園</title>
+    <meta
+      name="description"
+      content="北海道で生まれた無農薬有機野菜をお届けします"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="images/1x/アセット 1.png" />
+
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+
+    <!-- Googleフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap"
+      rel="stylesheet"
+    />
+    />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PMCW433GLQ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-PMCW433GLQ");
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- オリジナルCSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="cover cover-home">
+      <header class="page-header wrapper">
+        <h1 class="align-center">
+          <a href="index.html"
+            ><img
+              class="logo"
+              src="images/1x/アセット 1.png"
+              alt="つむぎ農園 ホーム"
+          /></a>
+        </h1>
+        <nav>
+          <ul class="main-nav font-english">
+            <li><a href="news.html">News</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+       <!-- Slider main container -->
+ <div class="swiper">
+<!-- Additional required wrapper -->
+<div class="swiper-wrapper">
+<!-- Slides -->
+ <div class="swiper-slide">
+<img class="swiper_img" src="images/fksi21041031749.jpg" alt="" />
+</div>
+<div class="swiper-slide">
+<img class="swiper_img" src="images/steven-weeks-DUPFowqI6oI-unsplash.jpg" alt="" />
+</div>
+<div class="swiper-slide">
+<img class="swiper_img" src="images/note-thanun-5cqDgYwlcCM-unsplash.jpg" alt="" />
+</div>
+</div>
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+
+<!-- If we need navigation buttons -->
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+
+<!-- If we need scrollbar -->
+<div class="swiper-scrollbar"></div>
+    </div>
+
+    <section class="about">
+      <h3 class="heading-large font-english">
+        北海道の恵みを、そのまま食卓へ。
+      </h3>
+      <p>
+        「つむぎ農園」という名称の由来は、大自然が育む「命」と、それを大切に育てる生産者の「想い」、そして日々の食卓を囲む家族の「時間」をしっかりと“紡いで”いきたいという願いから生まれました。
+      </p>
+      <p>
+        私たちの周りには、雄大な大地や豊かな自然があり、そこで幾度となく試行錯誤を重ねてたどり着いた、この土地ならではの素晴らしい恵みがたくさんあります。
+      </p>
+      <p>
+        化学肥料や農薬に頼らない自然栽培・有機無農薬にこだわり、土本来の力を引き出して育った野菜たちは、本来の力強い味わいと、じんわりとした甘みを持っています。
+      </p>
+      <p>
+        単に「食材」をお届けするのではなく、それを通して生産者の温かな想いや、家族で囲む食卓が心豊かになる時間を全国の皆さまにお届けする架け橋でありたい。それが、私たちの目指す場所です。
+      </p>
+      <div class="align-center">
+        <a class="btn" href="menu.html">ご注文はこちら</a>
+      </div>
+    </section>
+    <footer class="page-footer">
+      <h3 class="heading-large font-english">Information</h3>
+      <table class="info">
+        <tr>
+          <th>住所</th>
+          <td>北海道夕張郡栗山町 0-0 ◯◯◯</td>
+        </tr>
+        <tr>
+          <th>電話</th>
+          <td>0123-〇〇〇〇-XXXX</td>
+        </tr>
+        <tr>
+          <th>営業時間</th>
+          <td>8:00〜17:00</td>
+        </tr>
+        
+      </table>
+      <div class="copyright">
+        <small>&copy; 2022 つむぎ農園</small>
+      </div>
+    </footer>
+  </body>
+  <script>
+const swiper = new Swiper(".swiper", {
+// Optional parameters
+direction: "horizontal",
+loop: true,
+autoplay: { delay: 2000, disableOnInteraction: false },
+
+// If we need pagination
+pagination: {
+el: ".swiper-pagination",
+},
+
+ // Navigation arrows
+navigation: {
+nextEl: ".swiper-button-next",
+ prevEl: ".swiper-button-prev",
+ },
+
+ // And if we need scrollbar
+scrollbar: {
+ el: ".swiper-scrollbar",
+ },
+ });
+ </script>
+</html>
