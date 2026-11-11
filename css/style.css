@@ -385,7 +385,7 @@ iframe {
   }
   /* NEWS */
   .cover-news {
-    background-image: url(../images/yudai_kirinuki2.png);
+    background-image: url(../images/yudai_kirinuki.png);
   }
   .news-contents {
     display: flex;
